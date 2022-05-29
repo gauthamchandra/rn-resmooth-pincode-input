@@ -1,0 +1,12 @@
+node_modules/
+dist/
+
+# Ignore build output local to the machine
+*.tsbuildinfo
+.jest/
+coverage/
+.rollup.cache/
+
+
+# Ignore development related only files like from ctags
+tags

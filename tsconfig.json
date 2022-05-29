@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es6",
+    "jsx": "react-native",
+    "types": ["node", "jest", "@testing-library/react-native", "@testing-library/jest-native"],
+
+    "module": "ESNext",
+    "lib": ["ES6"],
+    "rootDir": ".",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "declaration": true,
+    "declarationDir": "./dist/dts",
+    "sourceMap": true,
+
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js", "setupTests.js"
+  ]
+}
