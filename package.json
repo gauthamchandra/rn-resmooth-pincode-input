@@ -1,6 +1,6 @@
 {
   "name": "rn-resmooth-pincode-input",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "This is an unofficial fork of 'react-native-smooth-pincode-input' but written in Typescript and upto date as the original package is no longer maintained",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
